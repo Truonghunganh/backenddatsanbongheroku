@@ -23,7 +23,7 @@ class QuanTableSeeder extends Seeder
             "kinhdo" => "108.1543554",
             "trangthai" =>true,
             "review"=>0,
-            "Create_time" => Carbon::now()
+            "createtime" => Carbon::now()
         ];
         DB::table('quans')->insert($data);
         //2
@@ -37,7 +37,7 @@ class QuanTableSeeder extends Seeder
             "kinhdo" => "108.214369",
             "trangthai" => true,
             "review" => 0,
-            "Create_time" => Carbon::now()
+            "createtime" => Carbon::now()
         ];
         
         DB::table('quans')->insert($data);
@@ -52,7 +52,7 @@ class QuanTableSeeder extends Seeder
             "kinhdo" => "108.1434063",
             "trangthai" => true,
             "review" => 0,
-            "Create_time" => Carbon::now()
+            "createtime" => Carbon::now()
         ];
         DB::table('quans')->insert($data);
         //4
@@ -66,7 +66,7 @@ class QuanTableSeeder extends Seeder
             "kinhdo" => "108.1564092",
             "trangthai" => true,
             "review" => 0,
-            "Create_time" => Carbon::now()
+            "createtime" => Carbon::now()
         ];
         DB::table('quans')->insert($data);
         //5
@@ -80,7 +80,7 @@ class QuanTableSeeder extends Seeder
             "kinhdo" => "108.1544331",
             "trangthai" => true,
             "review" => 0,
-            "Create_time" => Carbon::now()
+            "createtime" => Carbon::now()
         ];
         DB::table('quans')->insert($data);
         //6
@@ -94,7 +94,7 @@ class QuanTableSeeder extends Seeder
             "kinhdo" => "108.1491009",
             "trangthai" => true,
             "review" => 0,
-            "Create_time" => Carbon::now()
+            "createtime" => Carbon::now()
         ];
         DB::table('quans')->insert($data);
         //7
@@ -108,7 +108,7 @@ class QuanTableSeeder extends Seeder
             "kinhdo" => "108.150894",
             "trangthai" => true,
             "review" => 0,
-            "Create_time" => Carbon::now()
+            "createtime" => Carbon::now()
         ];
         DB::table('quans')->insert($data);
         //8
@@ -122,7 +122,7 @@ class QuanTableSeeder extends Seeder
             "kinhdo" => "108.1490714",
             "trangthai" => true,
             "review" => 0,
-            "Create_time" => Carbon::now()
+            "createtime" => Carbon::now()
         ];
         DB::table('quans')->insert($data);
         //9
@@ -136,7 +136,7 @@ class QuanTableSeeder extends Seeder
             "kinhdo" => "108.1483143",
             "trangthai" => true,
             "review" => 0,
-            "Create_time" => Carbon::now()
+            "createtime" => Carbon::now()
         ];
         DB::table('quans')->insert($data);
         //10
@@ -150,7 +150,7 @@ class QuanTableSeeder extends Seeder
             "kinhdo" => "108.2100709",
             "trangthai" => false,
             "review" => 0,
-            "Create_time" => Carbon::now()
+            "createtime" => Carbon::now()
         ];
         DB::table('quans')->insert($data);
         
@@ -182,7 +182,7 @@ class QuanTableSeeder extends Seeder
                 "kinhdo" => $kinhdos[$i],
                 "trangthai" => true,
                 "review" => 0,
-                "Create_time" => Carbon::now()
+                "createtime" => Carbon::now()
             ];
             DB::table('quans')->insert($data);
             $quan= DB::table('quans')->where("phone",$phones[$i])->first();
@@ -192,7 +192,7 @@ class QuanTableSeeder extends Seeder
                 "numberpeople" => 11,
                 "priceperhour" => 300000,
                 "trangthai" => true,
-                "Create_time" => Carbon::now()
+                "createtime" => Carbon::now()
             ];
             DB::table('sans')->insert($data);
             $data = [
@@ -201,7 +201,7 @@ class QuanTableSeeder extends Seeder
                 "numberpeople" => 5,
                 "priceperhour" => 150000,
                 "trangthai" => true,
-                "Create_time" => Carbon::now()
+                "createtime" => Carbon::now()
             ];
             DB::table('sans')->insert($data);
             $data = [
@@ -210,7 +210,7 @@ class QuanTableSeeder extends Seeder
                 "numberpeople" => 7,
                 "priceperhour" => 200000,
                 "trangthai" => true,
-                "Create_time" => Carbon::now()
+                "createtime" => Carbon::now()
             ];
             DB::table('sans')->insert($data);
         

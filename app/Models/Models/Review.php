@@ -12,7 +12,7 @@ class Review extends Model
         'iduser',
         'idquan',
         'review',
-        'Review_time'
+        'createtime'
     ];
     public $timestamps = false;
     protected $table = "reviews";

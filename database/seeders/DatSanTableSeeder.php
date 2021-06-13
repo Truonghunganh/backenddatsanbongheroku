@@ -73,10 +73,10 @@ class DatSanTableSeeder extends Seeder
                                 $data = [
                                     "idsan" => $sans[$i]->id,
                                     "iduser" => $user->id,
-                                    "start_time"=>$nam."-".$thang."-".$ngay." ".$gios[$gio][mt_rand(0, count($gios[$gio])-1)],
+                                    "starttime"=>$nam."-".$thang."-".$ngay." ".$gios[$gio][mt_rand(0, count($gios[$gio])-1)],
                                     "price"=>$sans[$i]->priceperhour,
                                     "xacnhan"=>true,
-                                    "Create_time"=> Carbon::now()   
+                                    "createtime"=> Carbon::now()   
 
                                 ];    
                                 DatSan::insert($data);

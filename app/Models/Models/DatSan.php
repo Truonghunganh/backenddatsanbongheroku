@@ -11,10 +11,10 @@ class DatSan extends Model
     protected $fillable = [
         'idsan',
         'iduser',
-        'start_time',
+        'startstime',
         'price',
         'xacnhan',
-        'Create_time'    
+        'createtime'    
     ];
     public $timestamps = false;
     protected $table = "datsans";

@@ -11,7 +11,7 @@ class Comment extends Model
     protected $fillable = [
         'idreview',
         'binhluan',
-        'Create_time',
+        'createtime',
     ];
 
     protected $table = "comments";
